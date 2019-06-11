@@ -1,0 +1,74 @@
+
+body {
+    background: url("https://i.imgur.com/aUhpEz3.jpg") ;
+    border-top-style: solid ;
+}
+header {
+    background-color: white ;
+   border-bottom-style: solid ;
+   border-bottom-color: white ;
+   margin-top: 0px ;
+   height: 113px ;
+   width: 100% ;
+   
+}
+.namebutton {
+    font-size: 10px ;
+    background-color: teal ;
+    color: white ;
+    border-style: solid ;
+    padding: 20px ;
+    margin-left: 15% ;
+    margin-right: 70% ;
+    margin-top: 20px ;
+    margin-bottom: 0px ;
+    float: left; 
+}
+
+nav {
+    position: relative; 
+    float: right ;
+    top: -40px ; 
+    right: 10px ;
+}
+
+ul li {
+    display: inline ;
+    color: white ;
+}
+
+
+
+.wrapper {
+    overflow: auto ;
+    background-color: white ;
+    border-top-style: solid ;
+    width: 600px ;
+    padding: 30px ;
+    margin-left: 25% ;
+    margin-right: 30% ;
+}
+.About {
+    border-bottom-style: solid ;
+    border-bottom-color: grey ;
+    font-size: 24px ; 
+ 
+}
+.pic {
+    float:left ;
+    margin-top: 10px ;
+    margin-left: 20px ;
+    position: relative ;
+    right: 20px ;
+}
+
+.p {
+    display: inline ; 
+    font-size: 18px ;
+    
+
+}
+.clear {
+    clear: both ;
+    overflow: auto ;
+}
