@@ -1,7 +1,10 @@
 
 body {
-    background: url("https://i.imgur.com/aUhpEz3.jpg") ;
+    background: url("https://i.imgur.com/MOkYBLj.png") ;
     border-top-style: solid ;
+    margin: 0 auto ;
+    
+    
 }
 header {
     background-color: white ;
@@ -39,14 +42,15 @@ ul li {
 
 
 
+
 .wrapper {
     overflow: auto ;
     background-color: white ;
-    border-top-style: solid ;
-    width: 600px ;
-    padding: 30px ;
-    margin-left: 25% ;
-    margin-right: 30% ;
+    width: 960px ;
+    margin: 0 auto ;
+    padding: 20px ;
+    margin-top: 80px ;
+    
 }
 .About {
     border-bottom-style: solid ;
@@ -68,6 +72,23 @@ ul li {
     
 
 }
+footer {
+    margin-bottom: 0px ;
+    border-bottom-color: black ;
+    border-bottom-style: solid ;
+    border-bottom-width: 40px ;
+    text-align: center ;
+    margin-top: 400px;
+    
+}
+
+.bottom {
+    border-bottom-style: solid ;
+    border-bottom-color: teal ;
+    border-bottom-width: 10px ;
+    
+}
+
 .clear {
     clear: both ;
     overflow: auto ;
