@@ -1,11 +1,11 @@
 header {
 
-        background-color: white ;
-       border-bottom-style: solid ;
-       border-bottom-color: white ;
-       margin-top: 0px ;
-       height: 113px ;
-       width: 100% ;
+     background-color: white ;
+    border-bottom-style: solid ;
+    border-bottom-color: white ;
+    margin-top: 0px ;
+    height: 113px ;
+    width: 100% ;
 }
 .namebutton {
     font-size: 10px ;
@@ -23,6 +23,8 @@ header {
     border-bottom-style: solid ;
     border-bottom-color: grey ;
     font-size: 24px ; 
+    margin-left: 80px ;
+    
  
 }
 .wrapper {
@@ -87,17 +89,10 @@ form {
   .name{
       font-size: 16px ;
   }
-  textarea {
-    /* To properly align multiline text fields with their labels */
-    vertical-align: top;
   
-    /* To give enough room to type some text */
-    height: 5em;
-  }
   
   .button {
-    display: inline; 
-    background-color: teal ;
+    margin-left: 180px ; 
     color: white ;
   }
   footer {
