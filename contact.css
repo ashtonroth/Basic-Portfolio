@@ -56,7 +56,7 @@ ul li {
     overflow: auto ;
 }
 form {
-   margin-top: 50px ; 
+   margin-top: 90px ; 
     margin: 0 auto;
     width: 600px;
    
@@ -65,7 +65,7 @@ form {
   }
   
   form div + div {
-    margin-top: 1em;
+    margin-top: 2em;
   }
   
   label {

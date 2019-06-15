@@ -47,6 +47,7 @@ ul li {
     overflow: auto ;
     background-color: white ;
     width: 960px ;
+    height: 600px; 
     margin: 0 auto ;
     padding: 20px ;
     margin-top: 80px ;
@@ -59,19 +60,21 @@ ul li {
  
 }
 .pic {
-    float:left ;
-    margin-top: 10px ;
-    margin-left: 20px ;
-    position: relative ;
-    right: 20px ;
+   
+    margin: 15px 20px 0px 0px ;
+    float: left ; 
+    
+
+   
 }
 
 .p {
-    display: inline ; 
-    font-size: 18px ;
+    padding: 0 ;
+    font-size: 20px ;
     
 
 }
+
 footer {
     margin-bottom: 0px ;
     border-bottom-color: black ;
