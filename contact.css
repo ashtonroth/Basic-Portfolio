@@ -47,6 +47,10 @@ nav {
     top: -40px ; 
     right: 10px ;
 }
+nav:hover {
+    background-color: purple ;
+    color: white ;
+}
 ul li {
     display: inline ;
     color: white ;
