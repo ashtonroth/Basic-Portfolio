@@ -7,11 +7,14 @@ body {
     
 }
 header {
+    position: fixed ;
+    top: 0 ;
     background-color: white ;
    border-bottom-style: solid ;
-   border-bottom-color: white ;
+   border-bottom-color: black ;
    margin-top: 0px ;
-   height: 113px ;
+   margin-bottom: 2px ;
+   height: 100px ;
    width: 100% ;
    
 }
@@ -23,7 +26,6 @@ header {
     padding: 20px ;
     margin-left: 15% ;
     margin-right: 70% ;
-    margin-top: 20px ;
     margin-bottom: 0px ;
     float: left; 
 }
@@ -31,7 +33,7 @@ header {
 nav {
     position: relative; 
     float: right ;
-    top: -40px ; 
+    top: -60px ; 
     right: 10px ;
 }
 
@@ -50,9 +52,11 @@ ul li {
     height: 600px; 
     margin: 0 auto ;
     padding: 20px ;
-    margin-top: 80px ;
-    border-bottom-width: 0ch ;
+    margin-top: 120px ;
+    
     margin-bottom: 100px ;
+    border-style: solid; 
+    border-color: black ; 
     
 }
 .About {
@@ -99,4 +103,10 @@ footer {
 .clear {
     clear: both ;
     overflow: auto ;
+}
+
+@media screen and (max-width:980px) and (max-width:768px) and (max-width:640px) {
+    text-align: center ; 
+    
+
 }
