@@ -25,6 +25,7 @@ header {
     border-bottom-color: grey ;
     font-size: 24px ; 
     margin-left: 100px ;
+  
     
     
  
@@ -36,6 +37,9 @@ header {
     margin: 0 auto ;
     padding: 20px ;
     margin-top: 120px ;
+    border-style: solid ;
+    border-width: 5px ; 
+    border-color: black ; 
     
 }
 body {
@@ -92,22 +96,20 @@ form {
   input:focus, textarea:focus {
     border-color: #000;
   }
-  .name{
-      font-size: 16px ;
-  }
+  
   
   
   .button {
     margin-left: 180px ; 
     color: white ;
   }
-  footer {
-    margin-bottom: 0px ;
+ footer {
+    margin-bottom: 0px ; 
     border-bottom-color: black ;
     border-bottom-style: solid ;
     border-bottom-width: 40px ;
     text-align: center ;
-    margin-top: 400px;
+    
     
 }
 
@@ -116,7 +118,23 @@ form {
     border-bottom-color: teal ;
     border-bottom-width: 10px ;
     
+   
+    
 }
-@media screens and (max-width:940px) and (max-width:768px) and (max-width:640px) {
-  
+
+@media (max-width:768px) {
+  .wrapper {
+    background-color: purple ;
+    color: white ; 
+  }
+
+  .About{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: bold ; 
+  }
+}
+@media (max-width:640){
+  .wrapper {
+    width: 100% ; 
+  }
 }

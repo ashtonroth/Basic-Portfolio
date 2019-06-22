@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width:980px), (max-width:768px) , (max-width:640px) {
+    .wrapper {
+  
+     background-color: #333 ;
+     text-align: center ; 
+     width: 100%; 
+     padding: 20px; 
+    }
+  }

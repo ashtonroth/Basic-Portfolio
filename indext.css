@@ -12,6 +12,7 @@ header {
     background-color: white ;
    border-bottom-style: solid ;
    border-bottom-color: black ;
+   border-top-color: black ;
    margin-top: 0px ;
    margin-bottom: 2px ;
    height: 100px ;
@@ -105,8 +106,11 @@ footer {
     overflow: auto ;
 }
 
-@media screen and (max-width:980px) and (max-width:768px) and (max-width:640px) {
-    text-align: center ; 
-    
 
-}
+
+  
+@media (max-width:640){
+    .wrapper {
+      width: 100% ; 
+    }
+  }
