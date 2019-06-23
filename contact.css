@@ -1,5 +1,8 @@
+
+
+
 header {
-  position: fixed ;
+  position: static;
   top: 0 ;
   background-color: white ;
  border-bottom-style: solid ;
@@ -20,55 +23,63 @@ header {
   margin-bottom: 0px ;
   float: left; 
 }
+
+
+nav {
+  position: relative; 
+  float: right ;
+  top: -60px ; 
+  right: 10px ;
+}
+nav:hover {
+  background-color: purple ;
+  color: white ;
+}
+ul li {
+  display: inline ;
+  color: white ;
+}
+.clear {
+  clear: both ;
+  overflow: auto ;
+}
+
+body {
+  background: url("https://i.imgur.com/MOkYBLj.png") ;
+  
+  margin: 0 auto ;
+  
+}
+
+.wrapper {
+    
+  background-color: white ;
+  padding: 20px ;
+  max-width: 960px ;
+  margin-top: 20px ; 
+  margin-left: auto ; 
+  margin-right: auto ; 
+  border-style: solid; 
+  border-color: black ; 
+  
+}
+
+
+
+
 .About {
     border-bottom-style: solid ;
     border-bottom-color: grey ;
     font-size: 24px ; 
-    margin-left: 100px ;
-  
-    
-    
+    margin-left: 100px ;  
  
 }
-.wrapper {
-    overflow: auto ;
-    background-color: white ;
-    width: 960px ;
-    margin: 0 auto ;
-    padding: 20px ;
-    margin-top: 120px ;
-    border-style: solid ;
-    border-width: 5px ; 
-    border-color: black ; 
-    
-}
-body {
-    background: url("https://i.imgur.com/MOkYBLj.png") ;
-    border-top-style: solid ;
-    margin: 0 auto ;
-}
-nav {
-    position: relative; 
-    float: right ;
-    top: -60px ; 
-    right: 10px ;
-}
-nav:hover {
-    background-color: purple ;
-    color: white ;
-}
-ul li {
-    display: inline ;
-    color: white ;
-}
-.clear {
-    clear: both ;
-    overflow: auto ;
-}
+
+
 form {
    margin-top: 90px ; 
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
    
    
    
@@ -76,7 +87,9 @@ form {
   
   form div + div {
     margin-top: 2em;
+    
   }
+
   
   label {
     margin-right: 100px ; 
@@ -86,7 +99,7 @@ form {
   }
   
   input, textarea {
-    
+    position: relative ; 
     font: 2em sans-serif;
     width: 600px;
     box-sizing: border-box;
@@ -104,11 +117,14 @@ form {
     color: white ;
   }
  footer {
-    margin-bottom: 0px ; 
+   position: absolute; 
+    top: -1800 ;
+    bottom: 0 ; 
     border-bottom-color: black ;
     border-bottom-style: solid ;
     border-bottom-width: 40px ;
     text-align: center ;
+    width: 100% ; 
     
     
 }
@@ -121,20 +137,54 @@ form {
    
     
 }
-
-@media (max-width:768px) {
+@media (max-width:980px) and (min-width:780px) {
+  .wrapper{
+    margin-left: 20px ; 
+    margin-right: 200px ; 
+    margin-bottom: 400px ; 
+  }
+  .form {
+    position: relative ; 
+    max-width: 400px ; 
+  }
+  .About{
+    border-color: blue ; 
+    margin-left: 20px ;
+  }
+  .nav{
+    float: none ; 
+  }
+}
+@media (max-width:768px) and (min-width:650px) {
   .wrapper {
     background-color: purple ;
     color: white ; 
+  
   }
 
   .About{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-weight: bold ; 
+    background-color: blue ; 
+    color: white ; 
+  }
+  .About {
+    font-size: 18px ; 
   }
 }
 @media (max-width:640){
   .wrapper {
-    width: 100% ; 
+     
+    margin-left: 40px ; 
+    margin-right: 40px ; 
+  }
+  header{
+    position: static ; 
+  }
+  footer {
+    position: static ; 
+    width: 100%
+  }
+  #name, #email, #msg {
+    position: relative ; 
+    
   }
 }
