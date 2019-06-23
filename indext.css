@@ -120,7 +120,7 @@ footer {
     .footer{
         background-color: beige ; 
     }
-    
+}    
 @media (max-width: 768px) and (min-width:650px) {
     .wrapper {
         width: 100% ; 
@@ -136,7 +136,7 @@ footer {
     }
 }
   
-@media (max-width:640){
+@media (max-width:640) {
     .wrapper {
       width: 100% ; 
       background-color: olive ; 
@@ -152,4 +152,4 @@ footer {
     .p {
         font-size: 10px ; 
     }
-  
+}
